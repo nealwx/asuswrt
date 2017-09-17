@@ -1,0 +1,12 @@
+*.o
+*.a
+Makefile
+config.h
+config.log
+config.status
+dropbearmulti
+dropbear
+dbclient
+dropbearkey
+dropbearconvert
+scp

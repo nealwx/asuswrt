@@ -1,0 +1,5 @@
+*.o
+*.a
+upnpc-static
+listdevices
+miniupnpcstrings.h

@@ -1,0 +1,3 @@
+*.o
+*.so
+PMS_sqlite_test

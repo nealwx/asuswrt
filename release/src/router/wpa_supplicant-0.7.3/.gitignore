@@ -1,0 +1,5 @@
+src/crypto/*.o
+src/eap_common/*.o
+src/eap_peer/*.o
+src/utils/*.o
+src/eap_peer/libeap.so*

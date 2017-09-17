@@ -1,0 +1,10 @@
+*.orig
+*.diff
+*~
+*.o
+*.obj
+*.c.dbg*
+*.depend
+/ctl.a
+rc
+tags

@@ -1,0 +1,3 @@
+*.o
+sambaclient
+stamp-h1

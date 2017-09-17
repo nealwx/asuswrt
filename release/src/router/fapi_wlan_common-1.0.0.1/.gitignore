@@ -1,0 +1,5 @@
+*.o
+*.d
+*.so
+fapi_wlan_cli
+fapi_wlan_dbXml

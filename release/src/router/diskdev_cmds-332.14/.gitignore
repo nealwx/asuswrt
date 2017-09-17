@@ -1,0 +1,4 @@
+*.o
+*.a
+*fsck_hfs
+*newfs_hfs

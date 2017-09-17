@@ -1,0 +1,7 @@
+*.o
+*.so
+*.a
+.*.depend
+protect_srv
+Send_Event2ptcsrv
+tags

@@ -1,0 +1,13 @@
+*.o
+*.a
+src/email
+stamp-h1
+Makefile
+config.log
+config.status
+src/Makefile
+dlib/Makefile
+dlib/config.log
+dlib/config.status
+dlib/include/config.h
+include/config.h

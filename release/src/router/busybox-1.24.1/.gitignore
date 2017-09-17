@@ -1,0 +1,52 @@
+#
+# Kbuild ignores
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+Kbuild
+Config.in
+config_current
+
+#
+# Never ignore these
+#
+!.gitignore
+
+#
+# Normal output
+#
+/busybox
+/busybox_unstripped*
+
+#
+# Backups / patches
+#
+*~
+*.orig
+*.rej
+/*.patch
+
+#
+# debugging stuff
+#
+core
+.gdb_history
+.gdbinit
+
+#
+# asuswrt
+#
+/config_*
+/!config_base*
+
+# asuswrt test
+applets/usage_pod
+busybox.links
+docs/busybox.net/
+include/NUM_APPLETS.h
+include/usage.h
+busybox-1.24.1/docs/busybox.1
+busybox-1.24.1/docs/busybox.net/

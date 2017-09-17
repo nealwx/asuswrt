@@ -1,0 +1,5 @@
+*.o
+*.dep
+udpxy
+udpxrec
+util/mkdep

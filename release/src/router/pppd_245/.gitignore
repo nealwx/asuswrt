@@ -1,0 +1,8 @@
+*.orig
+*~
+*.o
+.*.cmd
+*.so
+*.a
+*.cat8
+ppp/pppoe/pppd

@@ -4,20 +4,45 @@
 
 .*.cmd
 *~
-*.o
-*.lo
 
 #
 # asuswrt
 #
-
-.config
-.config.old
-config_
-config_current
-arm-uclibc
+/config_*
+/!config_base*
+/.config
+/.config.old
 mipsel-uclibc
-config.log
-config.status
-kernel_header
-config_rt-*
+mips-uclibc
+arm-uclibc
+arm-glibc
+/extendno.conf
+
+#
+# asuswrt test
+#
+
+libfoo_xref.txt
+target.info
+libevent
+wlexe
+hnd_shared
+
+# exported kernel headers
+/kernel_header
+
+Makefile.2011-11-10
+Makefile.org
+Makefile.orig
+Makefile_20111026
+stamp-h1
+
+lib
+
+# BWDPI
+/bwdpi_bin
+/bwdpi_dep
+/bwdpi_sqlite
+
+# bluecave
+rom_lantiq

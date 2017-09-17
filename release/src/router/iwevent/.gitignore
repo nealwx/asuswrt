@@ -1,0 +1,4 @@
+wlceventd
+*.elf
+*.gdb
+*.o

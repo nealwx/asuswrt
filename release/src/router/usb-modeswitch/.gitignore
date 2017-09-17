@@ -1,0 +1,5 @@
+usb_modeswitch
+usb_modeswitch_dispatcher
+usb_modeswitch.string
+jim/autosetup/jimsh0
+jim/autosetup/jimsh0.c

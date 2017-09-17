@@ -1,0 +1,11 @@
+*.o
+*.so
+*.a
+.*.depend
+nt_center
+nt_monitor
+nt_actMail
+Notify_Event2NC
+nt_db
+nt_db_test
+tags

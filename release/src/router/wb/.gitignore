@@ -1,0 +1,7 @@
+*.o
+*.a
+*.so
+*.la
+ws
+aaews
+mastiff

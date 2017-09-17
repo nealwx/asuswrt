@@ -1,0 +1,3 @@
+*.o
+traffic_limiter
+libtraffic_limiter.so

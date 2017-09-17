@@ -1,0 +1,16 @@
+*.o
+*.a
+*.so
+*.lo
+*.la
+stamp-h1
+.deps/
+.libs/
+config.h
+Makefile
+config.log
+config.status
+libtool
+expat_config.h
+xmlwf/xmlwf
+lib/xmlparse.loT

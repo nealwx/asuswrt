@@ -1,0 +1,10 @@
+*.o
+*.a
+*.so
+.*.depend
+*.prep
+version
+version.h
+rtconfig.h
+bbid.h
+tags

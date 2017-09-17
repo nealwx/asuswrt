@@ -1,0 +1,6 @@
+*.o
+*.a
+*.d
+*.d.*
+*.so
+include/wlcsm_linux.h

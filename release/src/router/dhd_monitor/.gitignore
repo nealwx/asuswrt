@@ -1,0 +1,3 @@
+*.o
+dhd_monitor
+.*.depend
