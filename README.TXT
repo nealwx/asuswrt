@@ -4,13 +4,14 @@ Set Up Environment(Tested in Fedora 8/9 and Ubuntu)
     1. prepare environment
 	Ubuntu
 	Install the following packages
-	sudo apt-get install libncurses5 libncurses5-dev m4 bison gawk flex libstdc++6-4.4-dev g++-4.4 g++ gengetopt \
+	sudo apt-get install libncurses5 libncurses5-dev m4 bison gawk flex g++ gengetopt \
 	git zlib1g-dev autoconf autopoint libtool shtool autogen mtd-utils intltool sharutils docbook-xsl-* libstdc++5 \
-	texinfo dos2unix xsltproc uboot-mkimage device-tree-compiler qemu gperf liblzo2-dev uuid-dev build-essential \
-	lzma-dev liblzma-dev lzma binutils-dev patch cmake intltool libglib2.0-dev gtk-doc-tools
+	texinfo dos2unix xsltproc device-tree-compiler qemu gperf liblzo2-dev uuid-dev build-essential \
+	lzma-dev liblzma-dev lzma binutils-dev patch cmake intltool libglib2.0-dev gtk-doc-tools \
+	libtool-bin
 
 	If you are using Ubuntu amd64, you may need to install 32-bit packages listed below.
-	sudo apt-get install libc6-i386 lib32stdc++6 lib32z1 libelf1:i386 libncurses5:i386 ia32-libs libc6-dev-i386
+	sudo apt-get install libc6-i386 lib32stdc++6 lib32z1 libelf1:i386 libncurses5:i386 libc6-dev-i386
 
    2. prepare source to, ex, $HOME/asuswrt
 
