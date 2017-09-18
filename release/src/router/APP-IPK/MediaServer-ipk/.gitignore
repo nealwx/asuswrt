@@ -1,0 +1,15 @@
+asusavahi-0.6.31/opt/
+mediaserver/opt/etc/downloadmaster/
+mediaserver/opt/tmp/bin/
+mediaserver/opt/tmp/include/
+mediaserverui/*.cgi
+/opt/
+
+/asusavahi-0.6.31/CONTROL/postinst
+/asusavahi-0.6.31/CONTROL/preinst
+/mediaserver/CONTROL/control
+/mediaserver/CONTROL/postinst
+/mediaserver/CONTROL/postrm
+/mediaserver/CONTROL/preinst
+/mediaserver/opt/etc/apps_asus_script/
+/mediaserver/opt/etc/init.d/

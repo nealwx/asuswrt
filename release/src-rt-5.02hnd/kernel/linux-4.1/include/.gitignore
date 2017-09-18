@@ -1,0 +1,4 @@
+config/
+dt-bindings/soc/bcm963xx_dt_bindings.h
+generated/
+linux/bcm_swversion.h

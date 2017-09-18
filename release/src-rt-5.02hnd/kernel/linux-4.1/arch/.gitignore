@@ -1,0 +1,4 @@
+i386
+x86_64
+arm64/defconfig
+arm64/include/generated/

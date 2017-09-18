@@ -1,0 +1,3 @@
+*.o
+*.cmd
+common/include/wps_version.h

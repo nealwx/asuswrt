@@ -1,0 +1,4 @@
+*.cmd
+*.o
+dhd/exe/dhd
+wl/exe/wl

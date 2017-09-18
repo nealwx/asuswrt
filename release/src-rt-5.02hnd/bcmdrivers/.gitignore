@@ -1,0 +1,10 @@
+built-in.o
+*.builtin
+*.o.cmd
+Kconfig.autogen
+Makefile.autogen
+modules.builtin
+modules.order
+tags
+ref
+bcm94908

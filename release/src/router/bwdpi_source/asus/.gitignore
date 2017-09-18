@@ -1,0 +1,4 @@
+*.o
+*.so
+hwinfo
+bwdpi_cmd

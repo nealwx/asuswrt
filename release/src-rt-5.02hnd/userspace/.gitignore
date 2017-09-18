@@ -1,0 +1,9 @@
+*.orig
+*.diff
+*~
+*.o
+*.depend
+tags
+makefile.modsw.autogen
+private/include/wlcsm_defs.h
+private/include/wlcsm_lib_api.h

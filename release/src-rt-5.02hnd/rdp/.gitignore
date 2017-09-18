@@ -1,0 +1,10 @@
+*.orig
+*.diff
+*~
+*.o
+*.ko
+*.cmd
+*.depend
+tags
+projects/WL4908/target/
+chkfile

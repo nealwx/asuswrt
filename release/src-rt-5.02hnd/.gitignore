@@ -1,0 +1,10 @@
+*.bin
+/.config
+fpkg.log
+image/*
+tags
+.host_perlarch
+.last_profile
+prek
+image
+.check_clean
