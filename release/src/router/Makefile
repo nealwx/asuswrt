@@ -4894,6 +4894,15 @@ eapd$(BCMEX)$(EX7)-clean:
 
 libdisk: $(if $(RTCONFIG_PERMISSION_MANAGEMENT),PMS_DBapis)
 
+shadowsocks-libev/Makefile:pcre-8.31
+	cd shadowsocks-libev && $(CONFIGURE) --with-pcre=$(TOP)/pcre-8.31 --disable-ssp --disable-documentation --with-mbedtls=/projects/dists/mbedtls  --with-sodium=/projects/dists/libsodium
+	echo $(CONFIGURE) 
+
+mbedtls-2.6.0:
+	$(MAKE) -C mbedtls-2.6.0 all \
+		CC=$(CC) CXX=$(CXX) AR=$(AR) RANLIB=$(RANLIB) LD=$(LD) CFLAGS="-Os -Wall $(EXTRACFLAGS)" LIBS="$(EXTRALDFLAGS)" 
+.PHONY:mbedtls-2.6.0
+
 lighttpd-1.4.39/Makefile:
 	@$(SEP)
 	cd lighttpd-1.4.39 && ./autogen.sh
