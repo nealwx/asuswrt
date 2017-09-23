@@ -93,7 +93,6 @@ endif
 
 pre:
 	rm -rf $(CURR_DIR)/include/wlcsm_linux.h
-	-mkdir -p $(CURR_DIR)/include/
 	ln -sf $(WLCSM_EXT_BASE)/include/wlcsm_linux.h  $(CURR_DIR)/include/wlcsm_linux.h
 
 install: all
